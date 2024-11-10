@@ -1,0 +1,32 @@
+# API Configuration
+api:
+  url: "http://localhost:8080" 
+
+
+
+# LLM Model Configuration
+gpt_model:
+  repo_model: "gpt-4o-mini"
+  temperature: 0.3
+  max_length: 500
+  token: "OPENAI_API_KEY"
+
+
+
+#Embedding configuration
+embedding_model:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+
+
+# Slack Configuration
+slack:
+  channel: "compliance"
+  token: "SLACK_API"
+
+
+
+# Embedding and Chunking
+embedding:              
+  dimension: 384               
+  top_k_documents: 3

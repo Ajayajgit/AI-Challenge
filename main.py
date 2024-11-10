@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from src.AiChallenge.components.document_handler1 import DocumentHandler
-from src.AiChallenge.components.llm_handler1 import LLMHandler
-from src.AiChallenge.pipeline.api_routes1 import ApiRoutes
+from src.AiChallenge.components.document_handler import DocumentHandler
+from src.AiChallenge.components.llm_handler import LLMHandler
+from src.AiChallenge.pipeline.api_routes import ApiRoutes
 import logging
 import uvicorn
 

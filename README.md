@@ -58,7 +58,7 @@ AI-CHALLENGE(Project directory)
     main.py
 
 **Dataset Description** 
-It is a pdf document which has different contents about a company named Zania.ai
+It is a pdf document which has different contents about a company named Zania.ai. It has all the policies which are implemented by zania and also the california policies
 
 
 **Installation**

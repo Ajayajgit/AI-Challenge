@@ -4,7 +4,7 @@ setup(
     name='Slack_Query_Zania',
     version='0.1',
     author='Ajay',
-    author_email='ajayphanindraaj@gmail.com',
+    author_email='ajayphanin@gmail.com',
     description='An AI agent which will give responses to the user queries based on the document given',
     packages=find_packages(),
     include_package_data=True,

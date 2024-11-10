@@ -58,19 +58,22 @@ AI-CHALLENGE(Project directory)
     main.py
 
 **Dataset Description** 
-It is a pdf document which has different contents about a company named Zania.ai. It has all the policies which are implemented by zania and also the california policies
 
+The document is a PDF that contains comprehensive information about the company's policies. It outlines the extensive practices and standards they follow to ensure compliance with best industry standards.
 
 **Installation**
+
 Clone the repository
 https://github.com/Ajayajgit/AI-Challenge
 
 **Create a virtual environment after opening the repository**
+
 python3 -m venv .\.venv
 *activate the venv*
 source .venv\Scripts\activate
 
 **install the requirements**
+
 pip install -r requirements.txt
 
 **License**

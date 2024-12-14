@@ -1,4 +1,4 @@
-# AI-Challenge
+# AI-Product
 
 This project creates an AI-powered agent that extracts text from uploaded PDF documents, allows users to query the content using natural language, and posts the answers to a specified Slack channel. The app is built with Streamlit for the frontend, OpenAI's GPT model for natural language understanding, and the Slack API for communication.
 

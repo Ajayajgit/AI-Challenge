@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-class FaissIndexHandler:
+class FaissIndexHandler: 
     def __init__(self, embedding_dim=384):  
         self.embedding_dim = embedding_dim
         self.faiss_index = faiss.IndexFlatL2(self.embedding_dim)

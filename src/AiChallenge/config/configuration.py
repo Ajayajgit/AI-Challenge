@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-import logging
+import logging 
 
 # Loading environment variables from a .env file
 load_dotenv()

@@ -1,6 +1,6 @@
 import logging 
-from src.AiChallenge.components.llm_handler import LLMHandler
-from src.AiChallenge.components.document_handler import DocumentHandler
+from src.AiProduct.components.llm_handler import LLMHandler
+from src.AiProduct.components.document_handler import DocumentHandler
 from pydantic import BaseModel
 from fastapi import APIRouter
 

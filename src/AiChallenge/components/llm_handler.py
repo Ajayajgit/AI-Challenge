@@ -6,7 +6,7 @@ import logging
 # Configure OpenAI API key
 openai_config_object = Config()
 openai.api_key = OPENAI_API_KEY
-
+ 
 # logging the necessary info
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

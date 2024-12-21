@@ -8,7 +8,7 @@ class EmbeddingHandler:
     def __init__(self, model_name="all-MiniLM-L6-v2"): # using the sentence transformer for embeddings
         logger.info(f"Initializing the SentenceTransformer model: {model_name}")
         self.model = None
-        self.initialize_model(model_name)
+        self.initialize_model(model_name) 
         logger.info("SentenceTransformer model initialized successfully.")
 
     def initialize_model(self, model_name):

@@ -1,5 +1,5 @@
-from src.AiChallenge.utils.embedding import EmbeddingHandler
-from src.AiChallenge.components.faiss_index import FaissIndexHandler
+from src.AiProduct.utils.embedding import EmbeddingHandler
+from src.AiProduct.components.faiss_index import FaissIndexHandler
 import logging
 
 logging.basicConfig(level=logging.INFO)

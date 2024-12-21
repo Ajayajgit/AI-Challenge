@@ -1,4 +1,4 @@
-import logging
+import logging 
 from src.AiChallenge.components.llm_handler import LLMHandler
 from src.AiChallenge.components.document_handler import DocumentHandler
 from pydantic import BaseModel
@@ -13,7 +13,7 @@ class DocumentInput(BaseModel): # creating a baseclass from pydantic to give it 
 class ApiRoutes:
     def __init__(self, llm_handler: LLMHandler, document_handler: DocumentHandler):
         self.llm_handler = llm_handler
-        self.document_handler = document_handler
+        self.document_handler = document_handler 
         self.router = APIRouter()
         self.add_routes()
 

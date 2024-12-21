@@ -3,8 +3,8 @@ import re
 import requests
 import streamlit as st
 from PyPDF2 import PdfReader
-from src.AiChallenge.config.configuration import Config
-from src.AiChallenge.components.slackclient import SlackHandler
+from src.AiProduct.config.configuration import Config
+from src.AiProduct.components.slackclient import SlackHandler
 
 class PdfHandler: # this is for handling the pdf, reads it, extract the text and clean any contents 
     @staticmethod

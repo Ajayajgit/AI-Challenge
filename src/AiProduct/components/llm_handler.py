@@ -1,5 +1,5 @@
-from src.AiChallenge.config.configuration import Config, OPENAI_API_KEY
-from src.AiChallenge.components.document_handler import DocumentHandler
+from src.AiProduct.config.configuration import Config, OPENAI_API_KEY
+from src.AiProduct.components.document_handler import DocumentHandler
 import openai
 import logging
 

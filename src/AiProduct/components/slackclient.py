@@ -1,6 +1,6 @@
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-from src.AiChallenge.config.configuration import Config
+from src.AiProduct.config.configuration import Config
 import logging
 
 # Set up logging

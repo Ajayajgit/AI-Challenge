@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-class DocumentHandler:
+class DocumentHandler: 
     def __init__(self, chunk_size=300): #given the chunk size as 300 as the pdf has huge text
         self.chunk_size = chunk_size
         self.embedding_handler = EmbeddingHandler()

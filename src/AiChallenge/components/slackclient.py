@@ -6,7 +6,7 @@ import logging
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
+ 
 class SlackHandler:
     """
     A class to handle Slack message posting.
